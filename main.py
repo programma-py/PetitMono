@@ -239,7 +239,7 @@ class App:
             for enemy in self.enemies:
                 enemy.draw()
 
-        text = "PUTIT MONO"
+        text = "PETIT MONO"
         text_x = (pyxel.width - len(text) * 4) // 2
         self.text_draw(text, text_x, 10, 10, 1)
 
